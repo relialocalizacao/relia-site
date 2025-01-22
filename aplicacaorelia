@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conhece o Relia!</title>
+    <title>Conhece a Relia!</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         /* Estilos globais */
@@ -133,7 +133,6 @@
             <h2>Podcast Relia</h2>
             <audio controls>
                 <source src="https://open.spotify.com/episode/2C5SCmdy4B8T6tF0BvIexJ?si=v_VNJ5xMRVOkqQZyF1QXAw" type="audio/mpeg">
-                Seu navegador não suporta o elemento de áudio.
             </audio>
         </section>
 
