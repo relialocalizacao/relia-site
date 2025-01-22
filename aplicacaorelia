@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conhece o Relia!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos globais */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #fafafa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #86afcd;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 1em 0 0 0;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #86afcd;
+        }
+
+        .container {
+            padding: 2em;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 2em;
+            margin-bottom: 2em;
+        }
+
+        section h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #86afcd;
+            margin-top: 0;
+        }
+
+        section p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #a2bf75;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        video, img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RELIA</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#podcast">Podcast</a></li>
+                <li><a href="#infografico">Infográfico</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Relia</h2>
+            <p><strong>Missão:</strong> A RELIA tem como missão oferecer soluções tecnológicas inovadoras que proporcionam praticidade e eficiência para os estudantes universitários.</p>
+            <p><strong>Objetivos:</strong> 1) Facilitar o acesso a conteúdos acadêmicos; 2) Conectar estudantes através de fóruns de discussão; 3) Oferecer suporte para projetos educacionais com recursos digitais.</p>
+        </section>
+
+        <section id="resumo">
+            <h2>Resumo do Produto</h2>
+            <p>A RELIA foi desenvolvida para resolver um desafio comum enfrentado por estudantes universitários: como encarar obras extensas e detalhadas sem perder a profundidade de compreensão. O seu principal objetivo é instigar a curiosidade e o interesse por obras longas, disponibilizando resumos que permitem aos estudantes entender os pontos-chave e a estrutura das obras sem precisar de uma leitura exaustiva.</p>
+        </section>
+        
+        <section id="podcast">
+            <h2>Podcast Relia</h2>
+            <audio controls>
+                <source src="https://open.spotify.com/episode/2C5SCmdy4B8T6tF0BvIexJ?si=v_VNJ5xMRVOkqQZyF1QXAw" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+
+        <section id="infografico">
+            <h2>Infográfico Relia</h2>
+            <img src="https://www.canva.com/design/DAGabkmqc0g/hPg-P-Jji8ns2H69f3nciA/edit" alt="Infográfico Relia">
+        </section>
+    </div>
+    
+    <footer>
+        <p>Contacto: <a href="mailto:info@relia.com">info@relia.com</a></p>
+    </footer>
+</body>
+</html>
